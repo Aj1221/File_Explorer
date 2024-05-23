@@ -1,0 +1,33 @@
+.file-explorer {
+    font-family: Arial, sans-serif;
+}
+
+.folder, .file {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.folder:hover, .file:hover {
+    background-color: #f0f0f0;
+}
+
+.nested {
+    margin-left: 20px;
+}
+
+.context-menu {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.context-menu div {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.context-menu div:hover {
+    background-color: #f0f0f0;
+}
